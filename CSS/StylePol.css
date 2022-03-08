@@ -1,0 +1,129 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #F5F5F5;
+}
+
+/*Só o Menu*/
+
+.menu{
+	background-color: #3c3c3c;
+	padding: 30px;
+	position: fixed;
+	width: 97%;
+	height: 8vh;
+}
+
+.menu ul{
+	font-size: 15px;
+	margin: 0;
+	float: right;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.menu ul li{
+	text-transform: uppercase;
+	color: white;
+	display: inline-block;
+	font-family: century gothic;
+	padding: 15px;
+	border: 2px transparent; solid;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu ul li:hover{
+	text-transform: uppercase;
+	background-color: #7ed956;
+	color: white;
+	display: inline-block;
+	font-family: century gothic;
+	padding: 15px;
+	border-radius: 20px;
+	border: 2px limegreen; solid;
+}
+
+.menu img{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: -20px 1px;
+	padding: 0px;
+}
+
+/*Página da Política de Privacidade*/
+
+.top{
+	color: #7ed956;
+	font-family: Nowharehouse;
+}
+
+.pltpriv{
+	font-family: Century Gothic,sans-serif;
+	text-align: justify;
+	margin: 20px;
+	margin-top: 130px;
+}
+
+.pltpriv a{
+	color: blue;
+	text-decoration: none;
+}
+
+/*Rodapé*/
+
+.final{
+	top: 700px;
+	width: 100%;
+}
+
+.rodape{
+	background-color: #3c3c3c;
+	color: white;
+	font-family: Century Gothic,sans-serif;
+}
+
+.perguntaRodape{
+	font-size: 20px;
+	font-family: Century Gothic,sans-serif;
+	color: #7ed956;
+}
+.infodados input{
+	background-color: transparent;
+	border: 1px white solid;
+	border-radius: 5px;
+	width: 400px;
+	height: 50px;
+	cursor: pointer;
+}
+.envio{
+	background-color: transparent;
+	border: 1px white solid;
+	border-radius: 30px;
+	color: #7ed956;
+	cursor: pointer;
+	transition: 0.25s;
+	width: 80px;
+	height: 30px;
+}
+.envio:hover{
+	background-color: #7ed956;
+	color: #3c3c3c;
+	transition: 0.25s;
+	transition-timing-function: ease-in-out;
+	width: 100px;
+}
+
+.rodape h2{
+	align-content: center;
+	font-family: Century Gothic,sans-serif;
+	color: #7ed956;
+	text-transform: uppercase;
+	padding: 20px 100px;
+}

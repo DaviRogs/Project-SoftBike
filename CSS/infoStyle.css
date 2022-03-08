@@ -1,0 +1,180 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f5f5f5;
+}
+
+	/* Barra De Navegação */
+
+.menu{
+	background-color: #3c3c3c;
+	padding: 30px;
+	position: fixed;
+	width: 97%;
+	height: 8vh;
+	z-index: 99;
+}
+
+.menu ul{
+	font-size: 15px;
+	margin: 0;
+	float: right;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.menu ul li{
+	text-transform: uppercase;
+	color: white;
+	display: inline-block;
+	font-family: century gothic;
+	padding: 15px;
+	border: 2px transparent; solid;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu ul li:hover{
+	text-transform: uppercase;
+	background-color: #7ed956;
+	color: white;
+	display: inline-block;
+	font-family: century gothic;
+	padding: 15px;
+	border-radius: 20px;
+	border: 2px #7ed956; solid;
+}
+
+.menu img{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: -20px 1px;
+	padding: 0px;
+}
+
+
+/* Corpo do Site */
+
+.infoimg img{
+	width: 200px;
+	height: auto;
+}
+
+.infoimg{
+	border-radius: 30px;
+	margin-top: 12vw;
+	margin-left: 26vh;
+	background-color: #3c3c3c;
+	width: 1000px;
+}
+
+.infoempresa{
+	text-align: justify;
+	font-family: Century Gothic, sans-serif;
+	margin-left: 160px;
+	margin-right: 160px;
+}
+
+.infoempresa h2{
+	color: #7ed956;
+	font-family: Nowharehouse;
+	text-align: center;
+}
+
+.infoempresa ul{
+	font-size: 19px;
+	list-style: circle;
+}
+
+.infoempresa cite{
+	background-color: lightyellow;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.infoempresa em p{
+	text-align: center;
+	font-size: 25px;
+}
+
+.patrocinadores img{
+	padding: 20px;
+	float: left;
+	width: 200px;
+	height: 170px;
+	transition: 0.25s;
+}
+
+.patrocinadores img:hover{
+	border-radius: 60px;
+}
+
+.pessoaimg img{
+	width: 400px;
+	margin-left: 46vh;
+}
+
+/* Tabela Sem Sentido */
+
+table th{
+	position: ;
+	width: 100px;
+	height: 20px;
+}
+
+/* Rodapé */
+
+.final{
+	margin-top: 50vw;
+	width: 100%;
+}
+
+.rodape{
+	background-color: #3c3c3c;
+	color: white;
+	font-family: Century Gothic,sans-serif;
+}
+
+.perguntaRodape{
+	font-size: 20px;
+	font-family: Century Gothic,sans-serif;
+	color: #7ed956;
+}
+.infodados input{
+	background-color: transparent;
+	border: 1px white solid;
+	border-radius: 5px;
+	width: 400px;
+	height: 50px;
+}
+.envio{
+	background-color: transparent;
+	border: 1px white solid;
+	border-radius: 30px;
+	color: #7ed956;
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+	transition: 0.25s;
+}
+.envio:hover{
+	background-color: #7ed956;
+	color: #3c3c3c;
+	transition: 0.25s;
+	transition-timing-function: ease-in-out;
+	width: 100px;
+}
+
+.rodape h2{
+	align-content: center;
+	font-family: Century Gothic,sans-serif;
+	color: #7ed956;
+	text-transform: uppercase;
+	padding: 20px 100px;
+}

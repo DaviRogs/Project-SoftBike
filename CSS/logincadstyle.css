@@ -1,0 +1,214 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f5f5f5;
+}
+
+.menu{
+	background-color: #3c3c3c;
+	padding: 30px;
+	position: absolute;
+	position: fixed;
+	width: 97%;
+	height: 8vh;
+}
+
+.menu ul{
+	font-size: 15px;
+	margin: 0;
+	float: right;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.menu ul li{
+	text-transform: uppercase;
+	color: white;
+	display: inline-block;
+	font-family: century gothic;
+	padding: 15px;
+	border: 2px transparent; solid;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu ul li:hover{
+	text-transform: uppercase;
+	background-color: limegreen;
+	color: white;
+	display: inline-block;
+	font-family: century gothic;
+	padding: 15px;
+	border-radius: 20px;
+	border: 2px limegreen; solid;
+}
+
+.menu img{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: -20px 1px;
+	padding: 0px;
+}
+
+
+/* Corpo da página*/
+
+.geralbox{
+	margin-top: 16vw;
+	margin-left: 34vh;
+	width: 900px;
+	height: 450px;
+	background-color: #5c4429;
+	border-radius: 10px;
+	box-shadow: 2px 2px 9px black;
+}
+
+
+h2{
+	align-content: center;
+	font-family: Century Gothic, sans-serif;
+	color: #7ed956;
+	text-transform: uppercase;
+	padding: 20px 100px;
+}
+
+.cadbox{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.loginbox{
+	float: left;
+	margin-top: 20px;
+}
+
+.loginfo, .cadinfo{
+	outline: none;
+	display: inline-block;
+	color: #bfbfbf;
+	font-family: century gothic;
+	text-align: center;
+	background-color: #0000005e;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+	border: 2px solid black;
+	transition: 0.25s;
+	align-content: center;
+}
+
+.loginfo:focus, .cadinfo:focus{
+	outline: none;
+	display: inline-block;
+	color: #bfbfbf;
+	font-family: century gothic;
+	text-align: center;
+	background-color: #0000005e;
+	width: 200px;
+	height: 20px;
+	border-radius: 20px;
+	border: 2px solid #7ed956;
+}
+
+.cadinfo{
+	margin: 0px 80px;
+	padding: 5px;
+}
+
+.loginfo{
+	margin-top: 40px;
+	padding: 5px;
+}
+
+.logbutton, .cadbutton{
+	font-family: sans-serif;
+	font-size: 15px;
+	width: 130px;
+	padding: 5px;
+	background-color: #0000005e;
+	border-radius: 20px;
+	color: white;
+	cursor: pointer;
+	border: black;
+	transition: 0.25s;
+}
+
+.logbutton:hover, .cadbutton:hover{
+	font-family: sans-serif;
+	font-size: 15px;
+	width: 130px;
+	padding: 5px;
+	background-color: limegreen;
+	border-radius: 20px;
+	color: white;
+	cursor: pointer;
+
+}
+
+.cadbutton {
+	margin-left: 120px;
+	margin-top: 22px;
+}
+
+.logbutton{
+	margin-left: 42px;
+	margin-top: 7px;
+}
+
+/* Rodapé */
+.final{
+	margin-top: 10vw;
+	width: 100%;
+}
+
+.rodape{
+	background-color: #3c3c3c;
+	color: white;
+	font-family: Century Gothic,sans-serif;
+}
+
+.perguntaRodape{
+	font-size: 20px;
+	font-family: Century Gothic,sans-serif;
+	color: #7ed956;
+}
+.infodados input{
+	background-color: transparent;
+	border: 1px white solid;
+	border-radius: 5px;
+	width: 400px;
+	height: 50px;
+	cursor: pointer;
+}
+.envio{
+	background-color: transparent;
+	border: 1px white solid;
+	border-radius: 30px;
+	color: #7ed956;
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+	transition: 0.25s;
+}
+.envio:hover{
+	background-color: #7ed956;
+	color: #3c3c3c;
+	transition: 0.25s;
+	transition-timing-function: ease-in-out;
+	width: 100px;
+}
+
+.rodape h2{
+	align-content: center;
+	font-family: Century Gothic,sans-serif;
+	color: #7ed956;
+	text-transform: uppercase;
+	padding: 20px 100px;
+}
