@@ -22,3 +22,5 @@
 # Observações:
 
 <h4>É necessário que o usuário baixe os arquivos deste repositório para visualizar o projeto.</h4>
+
+<p><i>(Após ter feito o download, abra o arquivo "SoftBike.html")</i></p>
