@@ -1,4 +1,22 @@
-# Prototype-Senai-SoftBike
-Prototype for a bicycle website.
+# Protótipo de um site - SoftBike
 
-However, you need to download the files and go into the Index (SoftBike.html) folder.
+<h4> Projeto de desenvolvimento web realizado durante as aulas de Front-End no SENAI </h4>
+<br>
+<br>
+<h3> Habilidades desenvolvidas: </h3>
+
+* Formatação e desenvolvimento web;
+* Integração linguagem de programação e HTML;
+* UX Design.
+<br>
+
+# Linguagens Utilizadas:
+
+<div align = "center">
+  
+  <img height = "80" src = "https://cdn-icons-png.flaticon.com/512/5968/5968267.png">
+  <img height = "80" src = "https://cdn-icons-png.flaticon.com/512/5968/5968242.png">
+  <img height = "65" src = "https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+  
+</div><br>
+
